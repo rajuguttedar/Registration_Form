@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    background-color: rgba(43, 43, 226, 0.667);
+}
+
+section{
+    width: 100vw;
+    max-width: 500px;
+    height: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 9px;
+}
+
+header{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    padding-bottom:20px;
+}
+
+label{
+    display: block;
+    color: brown;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.phone-date{
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-date .phone-number{
+    width: 49%;
+}
+.phone-date .dob{
+    width: 49%;
+}
+
+.gender>input{
+    height:15%;
+    width: 60px;
+}
+.gender>label{
+    display: inline-block;
+    color: black;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 5px;
+}
+input::placeholder{
+    padding-left:10px;
+}
+.country-city{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.country-city>select{
+    width: 49%;
+    height: 38px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 5px;
+}
+.country-city>input{
+    width: 49%;
+    height: 40px;
+}
+
+.region-code{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.region-code input{
+    justify-content: space-between;
+    width: 49%;
+}
+
+input[type="button"]{
+    margin-top:10px;
+    height: 45px;
+    background-color:rgba(43, 43, 226, 0.667);
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
